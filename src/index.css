@@ -67,3 +67,7 @@ p{
 .d-none{
   display: none;
 }
+h1{
+  text-align: center;
+  margin: 20px 0;
+}

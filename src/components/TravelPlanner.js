@@ -35,11 +35,13 @@ const destinations = [
 export default function TravelPlanner() {
   return (
     <>
+       <div className="container">
         {
-        destinations.map((e)=>{
-        return <Place rating={e.rating} destination_name={e.name} img={e.image} desc={e.description}/>
-        })
-    }
+            destinations.map((e)=>{
+            return <Place rating={e.rating} destination_name={e.name} img={e.image} desc={e.description}/>
+            })
+        }
+    </div>
     </>
   )
 }

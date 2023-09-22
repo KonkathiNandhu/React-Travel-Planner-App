@@ -7,7 +7,8 @@ import TravelPlanner from './components/TravelPlanner';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div className="container">
+  <div className="row">
+    <h1>React Travel Planner App</h1>
    <TravelPlanner />
   </div>
 );
